@@ -22,6 +22,8 @@ async def main() -> None:
     print('something')
     printAfter(3, 'second try.')
     print('value from await timer:', await timer(1))
+    print(f'print after "{await timer(3)}" secs')
+    print(f'print after "{await timer(2)}" secs')
 
 if __name__ == '__main__':
     main()
@@ -35,5 +37,6 @@ something
 first try.
 value from await timer: 1
 second try.
-
+print after "3" secs
+print after "2" secs
 ```
