@@ -31,9 +31,9 @@ if __name__ == '__main__':
 result:
 
 ```
->>>something
->>>first try.
->>>value from await timer: 1
->>>second try.
+something
+first try.
+value from await timer: 1
+second try.
 
 ```
